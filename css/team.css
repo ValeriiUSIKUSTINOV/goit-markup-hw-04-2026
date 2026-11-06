@@ -22,6 +22,10 @@
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .person-info {
@@ -39,4 +43,45 @@
 
 .team-position {
   text-align: center;
+}
+
+.social-page {
+  margin: 8px;
+}
+
+.social-page ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  background: #4d5ae5;
+}
+
+.social-item:hover {
+  background-color: #404bbf;
+}
+
+.icon-media {
+  display: block;
+  color: #f4f4fd;
 }
