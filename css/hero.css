@@ -1,5 +1,7 @@
 /* Section Hero*/
 .hero {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #2e2f42;
   background-image:
     linear-gradient(
